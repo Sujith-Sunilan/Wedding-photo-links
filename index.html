@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Event Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-head">
+  <p class="eyebrow">Photo Log</p>
+  <h1>Event Gallery</h1>
+  <p class="sub">Every gathering, kept in order. Drop new photos in and the roll keeps going.</p>
+</header>
+
+<main id="gallery" aria-live="polite">
+  <p class="loading">Loading photos&hellip;</p>
+</main>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous photo">&#8249;</button>
+  <figure class="lb-figure">
+    <img id="lbImage" src="" alt="" />
+    <figcaption id="lbCaption"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next photo">&#8250;</button>
+</div>
+
+<footer class="site-foot">
+  <p>To add photos: drop images into a dated folder under <code>/photos</code>, push to GitHub, and the site rebuilds itself.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

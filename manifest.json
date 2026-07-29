@@ -1,0 +1,25 @@
+[
+  {
+    "id": "2026-07-15-Sample-Event",
+    "title": "Sample Event",
+    "date": "2026-07-15",
+    "photos": [
+      {
+        "src": "photos/2026-07-15-Sample-Event/photo1.jpg",
+        "alt": "Sample Event — photo1.jpg"
+      },
+      {
+        "src": "photos/2026-07-15-Sample-Event/photo2.jpg",
+        "alt": "Sample Event — photo2.jpg"
+      },
+      {
+        "src": "photos/2026-07-15-Sample-Event/photo3.jpg",
+        "alt": "Sample Event — photo3.jpg"
+      },
+      {
+        "src": "photos/2026-07-15-Sample-Event/photo4.jpg",
+        "alt": "Sample Event — photo4.jpg"
+      }
+    ]
+  }
+]
